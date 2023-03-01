@@ -1,59 +1,96 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Joosep's coding projects</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <link rel="icon" href="https://img.icons8.com/flat-round/64/null/checkmark.png" type="image/x-icon" />
   </head>
   <body>
     <header>
-      <div class="container">
-        <h1>My Portfolio</h1>
-        <nav>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
+      <h1>Joosep's coding projects</h1>
+      <h2>Hello! I'm a programming student at kood/Jõhvi. Here you can find some of my latest projects</h2>
     </header>
-    
     <main>
-      <section id="hero">
-        <div class="container">
-          <h2>Welcome to my portfolio!</h2>
-          <p>Check out some of my latest coding projects below.</p>
-        </div>
+      <section class="project">
+        <h2>ascii-art-web</h2>
+        <p>
+          Application where you can create ascii art from text, and have an option to choose between 3 banners.
+        </p>
+        <p>Completion date: 05.12.2022</p>
+        <a href="http://176.112.158.22:8100" target="_blank">View Project</a>
+        
+      </section>
+      <section class="project">
+        <h2>groupie-tracker</h2>
+        <p>
+          Web application that receives JSON data from an API and displays it on a website. Features like filters, search and geolocation are implemented.
+        </p>
+        <p>Completion date: 18.12.2022</p>
+        <a href="http://176.112.158.22:8101/" target="_blank">View Project</a>
+        
+      </section>
+      <section class="project">
+        <h2>forum</h2>
+        <p>
+          A fullstack webforum written in Golang. Database is handled with sqlite3. Passwords are encrypted with Bcrypt. Includes implementations of cookies, oauth, posting images and rate limiting. Docker file is included with bash scripts. Possibility to run either in https or http mode.
+        </p>
+        <p>Completion date: 11.01.2023</p>
+        <a href="http://176.112.158.22:8084/" target="_blank">View Project</a>
+        
+      </section>
+      <section class="project">
+        <h2>mister-quiz</h2>
+        <p>Quiz game written with PHP using Laravel. Sqlite3 is used for database.</p>
+        <p>Completion date: 23.01.2023</p>
+        <a href="http://176.112.158.22:8085/" target="_blank">View Project</a>
+        
+      </section>
+      <section class="project">
+        <h2>sortable</h2>
+        <p>Web page written in JavaScript to get and organize data from API.</p>
+        <p>Completion date: 18.02.2023</p>
+        <a href="http://176.112.158.22:8086/" target="_blank">View Project</a>
+        
+      </section>
+      <section class="project">
+        <h2>clonernews</h2>
+        <p>
+          Web page written in Javascript to get data from more complicated API. This project consists of creating a
+          simple UI for HackerNews API. Includes rate limiting (throttling), asynchronous functions and notifications when content is updated.
+        </p>
+        <p>Completion date: 25.02.2023</p>
+        <a href="http://176.112.158.22:8087/" target="_blank">View Project</a>
+        
+      </section>
+      <section class="project">
+        <h2>make-your-game</h2>
+        <p>Single player game written in vanilla JavaScript. <br />Space invaders</p>
+        <a href="http://176.112.158.22:8088/" target="_blank">View Project</a>
+        
       </section>
       
-      <section id="projects">
-        <div class="container">
-          <h2>My Projects</h2>
-          <div class="project">
-            <img src="project1.jpg" alt="Project 1">
-            <h3>Project 1</h3>
-            <p>A brief description of Project 1.</p>
-            <a href="#">View Project</a>
-          </div>
-          <div class="project">
-            <img src="project2.jpg" alt="Project 2">
-            <h3>Project 2</h3>
-            <p>A brief description of Project 2.</p>
-            <a href="#">View Project</a>
-          </div>
-          <div class="project">
-            <img src="project3.jpg" alt="Project 3">
-            <h3>Project 3</h3>
-            <p>A brief description of Project 3.</p>
-            <a href="#">View Project</a>
-          </div>
-        </div>
+      <section class="project">
+        <h2>Company's website</h2>
+        <p>A simple frontend website made for a company. Has some interactivity implemented with vanilla Javascript and a contact form with possibility to send info to the company's mail address</p>
+        <a href="https://www.lovohonung.se/" target="_blank">View Project</a>
+        
       </section>
     </main>
-    
     <footer>
-      <div class="container">
-        <p>&copy; 2023 My Portfolio</p>
+      <div class="social-links">
+        <a href="https://github.com/jserva90" target="_blank">
+          <img src="https://img.icons8.com/material-outlined/24/ffffff/github.png" />
+        </a>
+        <a href="https://www.linkedin.com/in/joosep-serva-65b069221/" target="_blank">
+          <img src="https://img.icons8.com/material-outlined/24/ffffff/linkedin.png" />
+        </a>
+        <a href="https://01.kood.tech/git/jserva" target="_blank">
+          <img src="https://01.kood.tech/git/assets/img/logo.svg" />
+        </a>
+        <a href="https://kood.tech/" target="_blank">
+          <img src="https://kood.tech/wp-content/uploads/2021/04/Logo-2.svg" />
+        </a>
       </div>
     </footer>
   </body>
